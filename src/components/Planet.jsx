@@ -28,7 +28,7 @@ const PLANET_META = [
   },
   {
     key: 'uranus', name: 'Uranus', tilt: 1.706, atmo: '#80d8e8',
-    rings: { innerMult: 1.2, outerMult: 1.65, opacity: 0.28 },
+    rings: { innerMult: 1.2, outerMult: 1.4, opacity: 0.28 },
   },
 ];
 
