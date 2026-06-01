@@ -279,7 +279,7 @@ function AboutModal({ onClose }) {
             Kumar Saksham
           </h2>
           <p style={{ fontSize: '0.92rem', color: '#8892b0', lineHeight: 1.8, marginBottom: '1rem' }}>
-            CS undergrad at <span style={{ color: '#e8eaf6', fontWeight: 600 }}>IIIT Delhi</span> who builds things across the full stack — from bare-metal memory managers in C to Android apps to a fully working NES emulator.
+            Software Development Engineer at <span style={{ color: '#e8eaf6', fontWeight: 600 }}>NatWest Group(RBS)</span> who builds things in the backend — from bare-metal memory managers in C to Android apps to a fully working NES emulator.
           </p>
           <p style={{ fontSize: '0.92rem', color: '#8892b0', lineHeight: 1.8, marginBottom: '1rem' }}>
             I like systems that are fast, code that is clean, and problems that are hard. I've shipped projects in Python, C/C++, Java, Kotlin, and JavaScript — sometimes all in the same semester.
