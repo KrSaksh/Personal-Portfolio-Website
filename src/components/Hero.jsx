@@ -50,7 +50,7 @@ function GreetingRotator() {
 }
 const roles = [
   "I once emulated a Nintendo. no big deal",
-  "I Google error messages for a living",
+  "I resolve merge conflicts for a living",
   "I make the CPU cry in C++",
   "I ship bugs with great confidence",
   "I will fix it tomorrow (I won't)",
@@ -109,7 +109,6 @@ function TypeWriter({ words }) {
 // ── Live Codeforces counter ───────────────────────────────────────────────────
 function LiveCounter() {
   const [wrong, setWrong]   = useState(null);
-  const [total, setTotal]   = useState(null);
   const [error, setError]   = useState(false);
 
   useEffect(() => {
@@ -121,7 +120,6 @@ function LiveCounter() {
         const subs = data.result;
         const w = subs.filter(s => s.verdict !== 'OK').length;
         setWrong(w);
-        setTotal(subs.length);
       })
       .catch(() => setError(true));
   }, []);
@@ -165,7 +163,6 @@ function LiveCounter() {
           </motion.span>
           &nbsp;
           <span>of my crimes</span>
-          <span style={{ opacity: 0.35, marginLeft: '0.3rem' }}>({total} total)</span>
         </>
       )}
     </div>
