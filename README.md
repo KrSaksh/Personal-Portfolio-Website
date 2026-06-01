@@ -16,7 +16,7 @@ A 3D interactive personal portfolio built with React, Three.js, and Framer Motio
 - **Milky Way Background** — procedural Canvas 2D starfield with galactic band, nebula blobs, and twinkling stars across every section.
 - **Multilingual Hero** — greeting rotates through 12 languages on the landing page.
 - **Live Codeforces Counter** — fetches real wrong submission count from the Codeforces public API on page load.
-- **Floating UI** — Works 🪐, Talk 🛰️, and Me 🌙 buttons drift in space with GPU-composited CSS animations.
+- **Floating UI** — Works 🪐, Talk 🛰️, CV📄, and Me 🌙 buttons drift in space with GPU-composited CSS animations.
 - **Custom Cursor** — dot + ring cursor with hover states.
 - **Skills Section** — filterable by category, switchable between bar and orb views.
 - **Contact Form** — wired to EmailJS, sends real emails to `amostsaksham@gmail.com`.
