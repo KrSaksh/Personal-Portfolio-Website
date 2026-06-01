@@ -190,7 +190,7 @@ export default function SolarSystem() {
         gl={{ antialias: true, alpha: true }}
         style={{ background: 'transparent' }}
       >
-        <ambientLight intensity={0.05} />
+        <ambientLight intensity={0.9} />
         <Sparkles count={50} scale={60} size={1.0} speed={0.15} color="#aaccff" opacity={0.2} />
 
         <Suspense fallback={<SunFallback />}>

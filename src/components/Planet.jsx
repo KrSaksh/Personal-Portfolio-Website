@@ -112,7 +112,7 @@ function PlanetMesh({ project, meta, onClick, isSelected }) {
             roughness={0.8}
             metalness={0.0}
             emissive={new THREE.Color(project.emissive)}
-            emissiveIntensity={hovered ? 0.18 : 0.05}
+            emissiveIntensity={hovered ? 0.6 : 0.35}
           />
         </mesh>
 
