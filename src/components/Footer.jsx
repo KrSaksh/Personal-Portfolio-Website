@@ -14,12 +14,7 @@ export default function Footer() {
         transition={{ duration: 0.6 }}
         style={{ color: '#8892b0', fontSize: '0.82rem' }}
       >
-        <span style={{ color: '#00d4ff', fontFamily: 'Arial, "Helvetica Neue", Helvetica, sans-serif', fontWeight: 700 }}>KS</span>
-        {' '}·{' '}
-        Designed & Built by{' '}
-        <span style={{ color: '#e8eaf6' }}>Kumar Saksham</span>
-        {' '}·{' '}
-        <span style={{ opacity: 0.5 }}>Made with React + Three.js</span>
+        <span style={{ opacity: 0.5 }}>Designed & Built by Kumar Saksham | Made with React + Three.js</span>
       </motion.div>
     </footer>
   );

@@ -104,7 +104,7 @@ export default function About() {
                 marginBottom: '1.2rem',
               }}
             >
-              I'm a developer at IIIT Delhi with a deep passion for building systems from the ground up — whether that's a memory manager in C, a full NES emulator, or a web app that helps elderly users navigate daily life.
+              I'm a Java backend developer at NatWest Group(RBS) with a strong undergraduate background at IIIT Delhi with a deep passion for building systems from the ground up — whether that's a memory manager in C, a full NES emulator, or a web app that helps elderly users navigate daily life.
             </motion.p>
 
             <motion.p
@@ -178,7 +178,7 @@ export default function About() {
               style={{ gridColumn: '1 / -1' }}
             >
               <motion.a
-                href="mailto:amostsaksham@gmail.com"
+                href="mailto:almostsaksham@gmail.com"
                 whileHover={{ scale: 1.02, boxShadow: '0 0 20px rgba(0,212,255,0.2)' }}
                 whileTap={{ scale: 0.98 }}
                 data-hover
@@ -197,7 +197,7 @@ export default function About() {
                   letterSpacing: '0.03em',
                 }}
               >
-                📬 amostsaksham@gmail.com
+                📬 almostsaksham@gmail.com
               </motion.a>
             </motion.div>
           </div>

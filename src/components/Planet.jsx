@@ -28,7 +28,7 @@ const PLANET_META = [
   },
   {
     key: 'uranus', name: 'Uranus', tilt: 1.706, atmo: '#80d8e8',
-    rings: { innerMult: 1.2, outerMult: 1.65, opacity: 0.28 },
+    rings: { innerMult: 1.2, outerMult: 1.4, opacity: 0.28 },
   },
 ];
 
@@ -112,7 +112,7 @@ function PlanetMesh({ project, meta, onClick, isSelected }) {
             roughness={0.8}
             metalness={0.0}
             emissive={new THREE.Color(project.emissive)}
-            emissiveIntensity={hovered ? 0.18 : 0.05}
+            emissiveIntensity={hovered ? 0.6 : 0.35}
           />
         </mesh>
 

@@ -132,9 +132,9 @@ export const projects = [
 projects.forEach(p => { p.initialAngle = Math.random() * Math.PI * 2; });
 
 export const skills = [
-  { name: "Python", level: 90, category: "Languages" },
-  { name: "C/C++", level: 85, category: "Languages" },
-  { name: "Java", level: 80, category: "Languages" },
+  { name: "C/C++", level: 90, category: "Languages" },
+  { name: "Java", level: 85, category: "Languages" },
+  { name: "Python", level: 80, category: "Languages" },
   { name: "JavaScript", level: 75, category: "Languages" },
   { name: "Kotlin", level: 70, category: "Languages" },
   { name: "SQL", level: 85, category: "Database" },

@@ -50,7 +50,7 @@ function GreetingRotator() {
 }
 const roles = [
   "I once emulated a Nintendo. no big deal",
-  "I Google error messages for a living",
+  "I resolve merge conflicts for a living",
   "I make the CPU cry in C++",
   "I ship bugs with great confidence",
   "I will fix it tomorrow (I won't)",
@@ -109,7 +109,6 @@ function TypeWriter({ words }) {
 // ── Live Codeforces counter ───────────────────────────────────────────────────
 function LiveCounter() {
   const [wrong, setWrong]   = useState(null);
-  const [total, setTotal]   = useState(null);
   const [error, setError]   = useState(false);
 
   useEffect(() => {
@@ -121,7 +120,6 @@ function LiveCounter() {
         const subs = data.result;
         const w = subs.filter(s => s.verdict !== 'OK').length;
         setWrong(w);
-        setTotal(subs.length);
       })
       .catch(() => setError(true));
   }, []);
@@ -165,7 +163,6 @@ function LiveCounter() {
           </motion.span>
           &nbsp;
           <span>of my crimes</span>
-          <span style={{ opacity: 0.35, marginLeft: '0.3rem' }}>({total} total)</span>
         </>
       )}
     </div>
@@ -282,7 +279,7 @@ function AboutModal({ onClose }) {
             Kumar Saksham
           </h2>
           <p style={{ fontSize: '0.92rem', color: '#8892b0', lineHeight: 1.8, marginBottom: '1rem' }}>
-            CS undergrad at <span style={{ color: '#e8eaf6', fontWeight: 600 }}>IIIT Delhi</span> who builds things across the full stack — from bare-metal memory managers in C to Android apps to a fully working NES emulator.
+            Software Development Engineer at <span style={{ color: '#e8eaf6', fontWeight: 600 }}>NatWest Group(RBS)</span> who builds things in the backend — from bare-metal memory managers in C to Android apps to a fully working NES emulator.
           </p>
           <p style={{ fontSize: '0.92rem', color: '#8892b0', lineHeight: 1.8, marginBottom: '1rem' }}>
             I like systems that are fast, code that is clean, and problems that are hard. I've shipped projects in Python, C/C++, Java, Kotlin, and JavaScript — sometimes all in the same semester.
