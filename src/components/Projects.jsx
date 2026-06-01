@@ -72,7 +72,7 @@ export default function Projects() {
           transition={{ duration: 0.5, delay: 0.2 }}
           style={{ fontFamily: FONT, color: '#8892b0', fontSize: '0.85rem' }}
         >
-          Each planet is a project — click to explore, drag to orbit, scroll to zoom.
+          Each planet is a project — click to explore, drag to orbit.
         </motion.p>
       </div>
 
